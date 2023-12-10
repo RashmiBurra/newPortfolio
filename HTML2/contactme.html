@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+      #nameHelp, #emailHelp, #numberHelp, #descriptionHelp{
+        display: none;
+
+      }
+    </style>
+</head>
+<body>
+    <form  method="post" action="#">
+        <div class="mb-3">
+            <label for="exampleInputName" class="form-label">Name</label>
+            <input type="text" class="form-control" id="exampleInputName">
+            <div id="nameHelp" class="form-text  text-danger">Enter a value for this field</div>
+            <div  class="form-text ">enter your full name</div>
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text  text-danger">enter a value for this field</div>
+          <div  class="form-text">Enter your personal mail id</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputNumber" class="form-label">Phone no.</label>
+          <input type="number" class="form-control" id="exampleInputNumber">
+          <div id="numberHelp" class="form-text  text-danger">Enter a number for this field</div>
+          <div  class="form-text">enter your active mobile no.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleDescriptionName" class="form-label">Enter your Queries</label>
+          <input type="text" class="form-control" id="exampleDescriptionName">
+          <div id="descriptionHelp" class="form-text  text-danger">Enter a value for this field</div>
+        </div>
+        <center><button type="submit" class="btn btn-primary">Submit</button></center>
+      </form>
+    <script src="../JS2/contactme.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
